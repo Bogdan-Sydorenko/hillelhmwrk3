@@ -1,4 +1,10 @@
-console.log(typeof 3)
-console.log(typeof 'hello world!!!')
-console.log(typeof false)
+let numb = 3
+let str = 'hello world!!!'
+let boolean = false
+
+
+
+console.log(typeof numb)
+console.log(typeof str)
+console.log(typeof boolean)
 console.log(typeof undefined)
