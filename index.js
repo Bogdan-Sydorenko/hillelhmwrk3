@@ -1,1 +1,2 @@
-console.log('Happy developing ✨')
+let num = Number(prompt("Введіть трьохзначне число"));
+let thirdnum =
