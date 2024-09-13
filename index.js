@@ -2,9 +2,8 @@ let i = 20;
 
 let mainNum = ''
 
-while (i <= 30) {
+for (let i = 20; i <= 30; i += 0.5) {
     mainNum += i + ' '
-    i += 0.5;
 }
 
 console.log(mainNum)
