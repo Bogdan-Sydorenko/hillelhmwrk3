@@ -6,6 +6,6 @@ function removeChars(inputString, charsToRemove) {
     return inputString.split('').filter(chars => !charsToRemove.includes(chars)).join('');
 }
 
-let result = removeChars( inputString, charsToRemove);
+const result = removeChars( inputString, charsToRemove);
 console.log(result);
 
