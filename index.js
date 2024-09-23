@@ -1,1 +1,15 @@
-console.log('Happy developing ✨')
+function makeCounter () {
+    let sum = 0;
+
+    return function (num) {
+        sum += num;
+        return sum;
+    }
+}
+
+const myCounter = makeCounter();
+console.log(myCounter(4));
+console.log(myCounter(6));
+console.log(myCounter(10));
+console.log(myCounter(7));
+
