@@ -1,0 +1,10 @@
+#text-block {
+    font-size: 24px;
+    color: black; /* Початковий колір */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
