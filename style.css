@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, green, black);
+    color: white;
+}
+
+.validation-form {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.validation-form h2 {
+    text-align: center;
+}
+
+.validation-form label {
+    margin: 10px 0 5px;
+    display: block;
+}
+
+.validation-form input, .validation-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: #333;
+    outline:none;
+}
+
+.validation-form input::placeholder, .validation-form textarea::placeholder {
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.validation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.validation-form button:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}

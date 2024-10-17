@@ -4,6 +4,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"></head>
-<body>
+<body class="body">
+
+<div class="validation-form">
+    <h2>We would like to help you</h2>
+    <form id="contactForm" action="" method="post" class="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <div class="error-message" id="nameError"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <div class="error-message" id="emailError"></div>
+
+        <label for="phone">Phone number:</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number">
+        <div class="error-message" id="phoneError"></div>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+        <div class="error-message" id="messageError"></div>
+
+        <button type="submit">Send message</button>
+    </form>
+    <div id="errorMessages"></div>
+</div>
+
+<script src="index.js"></script>
 </body>
 </html>
