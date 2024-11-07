@@ -4,6 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"></head>
-<body>
+<body class="body">
+<div class="weather-widget">
+    <h2>Current weather</h2>
+    <div id="weather-info">
+        <p>City: <span id="city">—</span></p>
+        <p>Temperature: <span id="temperature">—</span> °C</p>
+        <p>Description: <span id="description">—</span></p>
+    </div>
+    <button class="button" onclick="fetchWeatherData()">UPDATE INFO</button>
+</div>
+
+<script src="index.js"></script>
+
 </body>
 </html>

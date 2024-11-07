@@ -1,0 +1,61 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-widget {
+    font-family: arial, sans-serif;
+    background-image: url('https://myradar.com/static/background-a089d87ba11e1a4c45a8efa960b86092.jpg'); /* Замените на URL изображения погоды */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 100px 200px 100px 200px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.weather-widget h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.weather-widget p {
+    margin: 8px 0;
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+.button {
+    margin-top: 20px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.button:active {
+    transform: translateY(1px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
