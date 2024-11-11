@@ -5,5 +5,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css"></head>
 <body>
+<h1>JSONPlaceholder Posts</h1>
+
+<div id="posts-container"></div>
+
+<h2>Створити новий пост</h2>
+<form id="new-post-form">
+    <label for="title">Заголовок:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="body">Текст:</label>
+    <textarea id="body" name="body" required></textarea>
+
+    <button type="submit">Створити пост</button>
+</form>
+
+<p id="success-message" style="display:none;">Пост створено успішно!</p>
+
+
+
+<script src="index.js"></script>
 </body>
 </html>
