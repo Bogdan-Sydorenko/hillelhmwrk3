@@ -1,0 +1,12 @@
+@import "./variables.scss";
+
+.body {
+  background-color: $primary-color;
+}
+.timer {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20%;
+  color: #333;
+}

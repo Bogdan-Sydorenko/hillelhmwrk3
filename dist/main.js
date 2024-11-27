@@ -1,0 +1,1 @@
+(()=>{"use strict";var t,e;t=85,e=setInterval((function(){var n,r,a,c;a=(n=Math.floor(t/60),r=(r=t%60)<10?"0"+r:r,"".concat(n=n<10?"0"+n:n,":").concat(r)),(c=document.getElementById("timer"))&&(c.innerText=a),t>0&&(t--,1)||clearInterval(e)}),1e3)})();
