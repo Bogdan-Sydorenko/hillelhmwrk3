@@ -9,6 +9,7 @@ module.exports = {
           path.join(__dirname, './src/js/index'), path.join(__dirname, './src/styles/main.scss'),
       ],
     },
+    watch: true,
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.js',
